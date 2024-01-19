@@ -1,0 +1,27 @@
+.head {
+  font-size: 50px;
+  text-align: center;
+  color: aqua;
+  background: pink;
+}
+.logo {
+  text-align: center;
+  color: gold;
+  background: black;
+  font-size: 100px;
+  border-radius: 37px;
+  margin: 25px;
+  padding: 35px;
+}
+.main-text {
+  display: flex;
+  justify-content: center;
+  background-color: bisque;
+  font-size: 45px;
+  margin: 25px;
+}
+p {
+  text-align: center;
+  color: red;
+
+}

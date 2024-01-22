@@ -1,4 +1,4 @@
-.head {
+head {
   font-size: 50px;
   text-align: center;
   color: aqua;
@@ -20,8 +20,11 @@
   font-size: 45px;
   margin: 25px;
 }
-p {
+#pis, b {
   text-align: center;
   color: red;
-
+  font-size: 25px;
+}
+#pis b {
+  color: blue;
 }

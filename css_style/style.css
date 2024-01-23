@@ -17,14 +17,49 @@ head {
   display: flex;
   justify-content: center;
   background-color: bisque;
+  color: dodgerblue;
   font-size: 45px;
   margin: 25px;
 }
 #pis, b {
   text-align: center;
   color: red;
-  font-size: 25px;
+  font-size: 15px;
+  line-height: 1.6em;
+  font-weight: bold;
 }
 #pis b {
   color: blue;
+  font-weight: normal;
+}
+.copy {
+  font-style: italic;
+}
+.menu {
+  list-style: none;
+}
+/* :before 라는 가상클래스를 줘서 하는법 */
+.menu li:before {
+  content: '❤️ ';
+}
+.parent {
+  border: 1px solid red;
+  width: 600px;
+  height: 200px;
+}
+.child {
+  border: 1px solid blue;
+  width: 200px;
+  height: 50px;
+}
+.box {
+  border: 1px solid pink;
+  width: 400px;
+  height: 400px;
+}
+.box div {
+  border: 1px solid purple;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
 }

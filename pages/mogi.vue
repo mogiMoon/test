@@ -33,6 +33,8 @@
         </div>
         <div class="borderb">border box</div>
         <div class="boxcenter">holly back front size same that place</div>
+        <div class="fontshadowbangkok">BANGKOK CODING KOREAN</div>
+        <div class="fontshadowchiangmai">chiangmai coding korean</div>
         <p class="copy">Copyright All Reserved by Mogi 2024</p>
       </div>
     </body>

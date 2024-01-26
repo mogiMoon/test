@@ -10,7 +10,7 @@
           앞에 특수하는 것 등 원유도 나뭇잎의 경우가 근교가 없다. 화학을 훔칠
           부채의 비효율적이 안정에서 이용할 전체만 가다 주다. 조약은 형사를,
           공격하고 예상될 자세가
-          <b> 이거는 볼드체가 아니게 출력될거얌 </b>어장과 같은 연구소를
+          <b> 이거는 볼드체가 아니게 파랗게 출력될거얌 </b>어장과 같은 연구소를
           완성되고 낸다. 소각하고 이번인 떨어지어도 정비에 대표에서 가장 집중과
           하다. "사랑으로 꽤 축하할 사상은 의원으로 상황으로 ''꽃을 있은 인을
           것, 배정하다"
@@ -31,6 +31,8 @@
             <div></div>
           </div>
         </div>
+        <div class="borderb">border box</div>
+        <div class="boxcenter">holly back front size same that place</div>
         <p class="copy">Copyright All Reserved by Mogi 2024</p>
       </div>
     </body>

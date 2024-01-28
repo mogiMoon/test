@@ -109,3 +109,38 @@ head {
   color: gold;
   text-shadow: 5px 5px 0 dodgerblue, 7px 7px 0 #90c8ff;
 }
+.floatparent {
+  border: 1px solid palevioletred;
+  width: 600px;
+  /* height: 200px; */
+  overflow: hidden;
+  margin: 25px 0 0 0;
+}
+.floatchild {
+  background-color: yellow;
+  width: 200px;
+  height: 100px;
+  display: block;
+  /* float: right; */
+  margin: auto;
+}
+.backpage {
+  font-size: 15px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px gray;
+  width: 150px;
+  margin: 5px 0 5px 0;
+  padding: 2px;
+}
+.nextpglogo {
+  font-size: 100px;
+  background-color: black;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 10px;
+  color: pink;
+  height: 80px;
+  padding: 25px;
+}

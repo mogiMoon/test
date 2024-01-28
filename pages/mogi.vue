@@ -35,6 +35,11 @@
         <div class="boxcenter">holly back front size same that place</div>
         <div class="fontshadowbangkok">BANGKOK CODING KOREAN</div>
         <div class="fontshadowchiangmai">chiangmai coding korean</div>
+        <div class="floatparent">
+          <div class="floatchild">
+            <a href="/next" class="head">Go Next Page</a>
+          </div>
+        </div>
         <p class="copy">Copyright All Reserved by Mogi 2024</p>
       </div>
     </body>

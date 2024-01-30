@@ -124,7 +124,21 @@ head {
   /* float: right; */
   margin: auto;
 }
+.buttontop {
+  display: flex;
+  justify-content: space-between;
+}
 .backpage {
+  font-size: 15px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px gray;
+  width: 150px;
+  margin: 5px 0 5px 0;
+  padding: 2px;
+}
+.homepage {
   font-size: 15px;
   text-align: center;
   border: 1px solid black;
@@ -143,4 +157,166 @@ head {
   color: pink;
   height: 80px;
   padding: 25px;
+}
+.boxtype {
+  border: 5px solid black;
+  width: 600px;
+  margin: 50px 0 25px 0;
+  color: white;
+}
+.floattop {
+  background-color: purple;
+  height: 50px;
+}
+.floatleft {
+  background-color: skyblue;
+  height: 100px;
+  width: 200px;
+  float: left;
+}
+.floatright {
+  background-color: orange;
+  height: 100px;
+  width: 400px;
+  float: right;
+}
+.clear {
+  background-color: purple;
+  height: 50px;
+  clear: both;
+}
+
+.floattop1 {
+  background-color: purple;
+  height: 50px;
+  width: 600px;
+}
+.boxflex {
+  display: flex;
+}
+.floatleft1 {
+  background-color: skyblue;
+  height: 100px;
+  width: 200px;
+}
+.floatright1 {
+  background-color: orange;
+  height: 100px;
+  width: 400px;
+}
+.clear1 {
+  background-color: purple;
+  height: 50px;
+  width: 600px;
+}
+
+.floattop2 {
+  background-color: purple;
+  width: 600px;
+  margin-top: 25px;
+  padding: 24px 8px;
+  color: white;
+}
+.boxflex2 {
+  display: flex;
+}
+.floatleft2 {
+  background-color: skyblue;
+  height: 100px;
+  width: 200px;
+}
+.floatright2 {
+  background-color: orange;
+  height: 100px;
+  width: 400px;
+}
+.clear2 {
+  height: 50px;
+  width: 600px;
+}
+.section1 {
+  border: 5px solid black;
+  width: 600px;
+  /* overflow: hidden; */
+  display: flex;
+  margin-top: 25px;
+}
+.section1 article {
+  background-color: gold;
+  width: 200px;
+  height: 100px;
+  /* float: left; */
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+.container {
+  border: 1px solid red;
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+  font-size: 35px;
+}
+header {
+  background-color: skyblue;
+  overflow: hidden;
+}
+header article {
+  background-color: gray;
+  width: 300px;
+  height: 100px;
+}
+.loko {
+  float: left;
+}
+.navi {
+  float: right;
+}
+
+.section21 {
+  background-color: yellowgreen;
+  height: 300px;
+}
+.section22 {
+  background-color: greenyellow;
+  /* border: 1px solid blue; */
+  overflow: hidden;
+}
+.section22 article {
+  /* background-color: gray; */
+  width: 33.33333333%;
+  height: 300px;
+  float: left;
+}
+.sub1 {
+  background-color: darkgray;
+}
+.sub2 {
+  background-color: lightgray;
+}
+.sub3 {
+  background-color: lightslategray;
+}
+
+footer {
+  background-color: skyblue;
+  height: 100px;
+}
+
+/* 부모요소 position: relative
+자식요소 position: absolute */
+.positionp {
+  background-color: dodgerblue;
+  width: 600px;
+  height: 300px;
+  margin-top: 25px;
+  position: relative;
+}
+.positions {
+  background-color: crimson;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  right:0;
+  bottom: 0;
+
 }

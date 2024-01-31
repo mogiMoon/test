@@ -54,6 +54,22 @@
     <a href="http://www.naver.com" class="buttonhover">네이버</a>
     <a href="http://www.google.com" class="buttonhover">구글</a>
     <a href="http://www.yahoo.jp" class="buttonhover">야후제팬</a>
+    <div class="roadsign">
+      <div></div>
+      <div>→</div>
+      <div></div>
+      <div></div>
+    </div>
+    <div class="btn">
+      <span>공지사항</span>
+      <span>갤러리</span>
+    </div>
+    <div class="tablist">
+      <a href="#none">SMS 発送サービス改善作業</a>
+      <a href="#none">スマホ認証サービス改善作業</a>
+      <a href="#none">カード社部分無利子分割払いイベント</a>
+      <a href="#none">スマホ決済システム作業のお知らせ</a>
+    </div>
     <div>
       <a href="/clonsite" class="head">clon Page</a>
     </div>

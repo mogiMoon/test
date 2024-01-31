@@ -51,7 +51,12 @@
     <div class="positionp">
       <div class="positions"></div>
     </div>
-    <a href="/clonsite" class="head">clon Page</a>
+    <a href="http://www.naver.com" class="buttonhover">네이버</a>
+    <a href="http://www.google.com" class="buttonhover">구글</a>
+    <a href="http://www.yahoo.jp" class="buttonhover">야후제팬</a>
+    <div>
+      <a href="/clonsite" class="head">clon Page</a>
+    </div>
   </div>
 </template>
 

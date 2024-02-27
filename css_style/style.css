@@ -1,4 +1,4 @@
-.head {
+head {
   font-size: 50px;
   text-align: center;
   color: aqua;
@@ -8,7 +8,7 @@
   text-align: center;
   color: gold;
   background: black;
-  font-size: 100px;
+  font-size: 95px;
   border-radius: 37px;
   margin: 25px;
   padding: 35px;
@@ -17,11 +17,384 @@
   display: flex;
   justify-content: center;
   background-color: bisque;
+  color: dodgerblue;
   font-size: 45px;
   margin: 25px;
 }
-p {
+#pis, b {
   text-align: center;
   color: red;
+  font-size: 15px;
+  line-height: 1.6em;
+  font-weight: bold;
+}
+#pis b {
+  color: blue;
+  font-weight: normal;
+}
+.copy {
+  font-style: italic;
+}
+.menu {
+  list-style: none;
+}
+/* :before 라는 가상클래스를 줘서 하는법 */
+.menu li:before {
+  content: '❤️ ';
+}
+.parent {
+  border: 1px solid red;
+  width: 600px;
+  height: 200px;
+}
+.child {
+  border: 1px solid blue;
+  width: 200px;
+  height: 50px;
+  padding: 25px 100px;
+  margin: 35px;
+}
+.box {
+  border: 1px solid pink;
+  width: 400px;
+  height: 400px;
+}
+.box div {
+  border: 1px solid purple;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+.box div div {
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
+}
+.borderb {
+  width: 200px;
+  height: 120px;
+  /* border-color: darkmagenta;
+  border-width: 5px;
+  border-style: double; */
+  border: 5px double darkmagenta;
+  /* border-right: none; */
+  border-radius: 34px;
+  padding: 20px;
+  text-align: center;
+}
+.boxcenter {
+  width: 600px;
+  padding: 20px; 
+  margin: 10px 10px 35px 10px;
+  border: 3px solid rgb(176, 175, 175);
+  border-radius: 25px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 0 dodgerblue, 20px 20px 0 #3e9ffd, 30px 30px 0 #70b8fd;
+}
+.fontshadowbangkok {
+  background-color: #333;
+  font-size: 70px;
+  text-transform: uppercase;
+  color: gold;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
 
+}
+.fontshadowchiangmai {
+  font-size: 70px;
+  background-color: #333;
+  text-transform: uppercase;
+  color: gold;
+  text-shadow: 5px 5px 0 dodgerblue, 7px 7px 0 #90c8ff;
+}
+.floatparent {
+  border: 1px solid palevioletred;
+  width: 600px;
+  /* height: 200px; */
+  overflow: hidden;
+  margin: 25px 0 0 0;
+}
+.floatchild {
+  background-color: yellow;
+  width: 200px;
+  height: 100px;
+  display: block;
+  /* float: right; */
+  margin: auto;
+}
+.buttontop {
+  display: flex;
+  justify-content: space-between;
+}
+.backpage {
+  font-size: 15px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px gray;
+  width: 150px;
+  margin: 5px 0 5px 0;
+  padding: 2px;
+}
+.homepage {
+  font-size: 15px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px gray;
+  width: 150px;
+  margin: 5px 0 5px 0;
+  padding: 2px;
+}
+.nextpglogo {
+  font-size: 100px;
+  background-color: black;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 10px;
+  color: pink;
+  height: 80px;
+  padding: 25px;
+}
+.boxtype {
+  border: 5px solid black;
+  width: 600px;
+  margin: 50px 0 25px 0;
+  color: white;
+}
+.floattop {
+  background-color: purple;
+  height: 50px;
+}
+.floatleft {
+  background-color: skyblue;
+  height: 100px;
+  width: 200px;
+  float: left;
+}
+.floatright {
+  background-color: orange;
+  height: 100px;
+  width: 400px;
+  float: right;
+}
+.clear {
+  background-color: purple;
+  height: 50px;
+  clear: both;
+}
+
+.floattop1 {
+  background-color: purple;
+  height: 50px;
+  width: 600px;
+}
+.boxflex {
+  display: flex;
+}
+.floatleft1 {
+  background-color: skyblue;
+  height: 100px;
+  width: 200px;
+}
+.floatright1 {
+  background-color: orange;
+  height: 100px;
+  width: 400px;
+}
+.clear1 {
+  background-color: purple;
+  height: 50px;
+  width: 600px;
+}
+
+.floattop2 {
+  background-color: purple;
+  width: 600px;
+  margin-top: 25px;
+  padding: 24px 8px;
+  color: white;
+}
+.boxflex2 {
+  display: flex;
+}
+.floatleft2 {
+  background-color: skyblue;
+  height: 100px;
+  width: 200px;
+}
+.floatright2 {
+  background-color: orange;
+  height: 100px;
+  width: 400px;
+}
+.clear2 {
+  height: 50px;
+  width: 600px;
+}
+.section1 {
+  border: 5px solid black;
+  width: 600px;
+  /* overflow: hidden; */
+  display: flex;
+  margin-top: 25px;
+}
+.section1 article {
+  background-color: gold;
+  width: 200px;
+  height: 100px;
+  /* float: left; */
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+.container {
+  border: 1px solid red;
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+  font-size: 35px;
+}
+header {
+  background-color: skyblue;
+  overflow: hidden;
+}
+header article {
+  background-color: gray;
+  width: 300px;
+  height: 100px;
+}
+.loko {
+  float: left;
+}
+.navi {
+  float: right;
+}
+
+.section21 {
+  background-color: yellowgreen;
+  height: 300px;
+}
+.section22 {
+  background-color: greenyellow;
+  /* border: 1px solid blue; */
+  overflow: hidden;
+}
+.section22 article {
+  /* background-color: gray; */
+  width: 33.33333333%;
+  height: 300px;
+  float: left;
+}
+.sub1 {
+  background-color: darkgray;
+}
+.sub2 {
+  background-color: lightgray;
+}
+.sub3 {
+  background-color: lightslategray;
+}
+
+footer {
+  background-color: skyblue;
+  height: 100px;
+}
+
+/* 부모요소 position: relative
+자식요소 position: absolute */
+.positionp {
+  background-color: dodgerblue;
+  width: 600px;
+  height: 300px;
+  margin-top: 25px;
+  position: relative;
+}
+.positions {
+  background-color: crimson;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  right:0;
+  bottom: 0;
+}
+.buttonhover {
+  color: #333;
+  margin: 25px 0;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 5px;
+  width: 120px;
+  border-radius: 5px;
+  text-align: center;
+  transition: 0.5s;
+}
+.buttonhover:hover {
+  color: #fff;
+  background-color: #000;
+}
+.roadsign {
+  border: 5px solid #000;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.roadsign div {
+  border: 5px solid #000;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.roadsign div:nth-child(1) {
+  background-color: red;
+}
+.roadsign div:nth-child(2) {
+  background-color: black;
+  font-size: 1200%;
+  font-weight: bold;
+  color: green;
+}
+.roadsign div:nth-child(3) {
+  background-color: yellow;
+}
+.roadsign div:nth-child(4) {
+  background-color: green;
+}
+.btn {
+  margin: 25px 0 0 0;
+}
+.btn span {
+  background-color: #ddd;
+  width: 120px;
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px 5px 0 0;
+  cursor: pointer;
+  border: 1px solid #000;
+  margin-right: -7px;
+}
+.btn span:first-child {
+  background-color: #fff;
+}
+.btn span:last-child {
+  color: red;
+}
+.tablist {
+  border: 1px solid #000;
+  margin: 0 0 25px 0;
+  width: 400px;
+}
+.tablist a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  margin: 5px;
+  border-bottom: 1px solid #000;
+}
+.tablist a:last-child {
+  border-bottom: none;
 }
